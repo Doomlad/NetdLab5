@@ -9,8 +9,8 @@ using NetdLab5.Models;
 namespace NetdLab5.Migrations
 {
     [DbContext(typeof(CarContext))]
-    [Migration("20201209235546_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20201219001510_InitalCreate")]
+    partial class InitalCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
